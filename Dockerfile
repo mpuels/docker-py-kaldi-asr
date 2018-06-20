@@ -1,6 +1,6 @@
 FROM debian:8
 
-ARG MAKE_JOBS=3
+ARG MAKE_JOBS=1
 
 ARG DIR_PKGCONFIG=/usr/lib/pkgconfig
 
