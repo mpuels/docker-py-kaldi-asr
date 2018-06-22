@@ -11,3 +11,10 @@ https://quay.io/repository/mpuels/docker-py-kaldi-asr-and-model for images
 that are ready for transcription.
 
 The image is part of [Zamia Speech](https://github.com/gooofy/zamia-speech).
+
+
+## Sample STT Service based on Kaldi ASR
+
+Check out
+[docker-py-kaldi-asr-and-model](https://github.com/mpuels/docker-py-kaldi-asr-and-model)
+for a sample Docker image that can be used right away for transcription.
