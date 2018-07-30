@@ -24,6 +24,6 @@ RUN pip install \
         setproctitle==1.1.10 \
         typing==3.6.4
 
-RUN pip install py-kaldi-asr==0.3.1
+RUN pip install py-kaldi-asr==0.4.1
 
 COPY asr_server.py /opt/asr_server/
