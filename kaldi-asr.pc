@@ -2,7 +2,7 @@ kaldi_root=/opt/kaldi
 
 Name: kaldi-asr
 Description: kaldi-asr speech recognition toolkit
-Version: 5.2
+Version: 5.4
 Requires: lapack-atlas
 Libs: -L/opt/kaldi/tools/openfst/lib -L/opt/kaldi/src/lib -lkaldi-decoder -lkaldi-lat -lkaldi-fstext -lkaldi-hmm -lkaldi-feat -lkaldi-transform -lkaldi-gmm -lkaldi-tree -lkaldi-util -lkaldi-matrix -lkaldi-base -lkaldi-nnet3 -lkaldi-online2 -lkaldi-cudamatrix -lkaldi-ivector -lfst
 Cflags: -I/opt/kaldi/src  -I/opt/kaldi/tools/openfst/include
